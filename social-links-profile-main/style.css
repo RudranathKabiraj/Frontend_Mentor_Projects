@@ -1,0 +1,62 @@
+body {
+    font-family: 'Inter', sans-serif;    background-color: black; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  }
+  
+  .card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem ;
+    text-align: center;
+    max-width: 375px;
+    /* width: 100% */
+    width:calc(100%-40px)
+  }
+  
+  .card img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  p{
+    color: hsl(0, 2%, 61%);
+    font-size: 14px;
+  }
+  h1, h2, p {
+    margin: 10px;
+  }
+  
+  h1 {
+    color:hsl(0, 0%, 100%);
+  }
+  
+  h2 {
+    color: hsl(75, 94%, 57%); 
+    font-size: 14px;
+
+  }
+  
+  .socialLink {
+    display: block;
+    margin: 2px 0;
+    color: hsl(0, 0%, 100%); /* Set the color of social links to a blue shade */
+    text-decoration: none;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 20%);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+    
+  
+  .socialLink:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+  }
+  
