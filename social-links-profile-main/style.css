@@ -59,4 +59,16 @@ body {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
   }
-  
+  .attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
